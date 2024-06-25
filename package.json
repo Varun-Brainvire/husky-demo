@@ -2,10 +2,10 @@
   "name": "husky-demo",
   "version": "0.1.0",
   "private": true,
-  "husky":{
-    "hooks":{
-      "pre-commit":"echo \"[Husky] pre-commit\""
-     }
+  "husky": {
+    "hooks": {
+      "pre-commit": "echo \"[Husky] pre-commit\""
+    }
   },
   "scripts": {
     "dev": "next dev",
@@ -14,7 +14,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "husky": "^9.0.11",
     "next": "14.2.4",
     "react": "^18",
     "react-dom": "^18"
@@ -25,6 +24,7 @@
     "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "14.2.4",
+    "husky": "^9.0.11",
     "typescript": "^5"
   }
 }
